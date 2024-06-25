@@ -6,8 +6,8 @@ import NavigatationBar from './BootComponents/NavigatationBar'
 
 const Home = () => {
   return (
-    <div className='hoe-bg'>
-     <NavigatationBar/>
+    <div className='home-bg'>
+     {/* <NavigatationBar/> */}
       <h1 className='main-heading'>SucessFully LoggedIn</h1>
     </div>
   )
