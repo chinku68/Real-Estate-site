@@ -1,0 +1,9 @@
+.home-bg{
+    background-image: url(https://dotnet.microsoft.com/blob-assets/images/illustrations/carousel/dotnet-nine.png);
+    background-size: 100%;
+    height: 100vh;
+    margin-top: -1.4rem;
+}
+.main-heading{
+    color: white;
+}
