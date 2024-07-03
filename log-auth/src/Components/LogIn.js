@@ -79,7 +79,7 @@ return Object.keys(newErrors).length === 0;
         </div>
         <div>
           
-          <input
+          <input className='input-l'
             type={loginType === 'email' ? 'text' : 'tel'}
             name="identifier"  value={login.identifier} onChange={handleChange} placeholder={`Enter ${loginType === 'email' ? 'email' : 'phone number'}`}
             required ref={logRef}
@@ -88,7 +88,7 @@ return Object.keys(newErrors).length === 0;
         </div>
         <div>
           
-          <input
+          <input className='input-l'
             type="password" name="password" value={login.password} onChange={handleChange}  placeholder="Enter password" required
           />
         <p>{errors.password}</p>

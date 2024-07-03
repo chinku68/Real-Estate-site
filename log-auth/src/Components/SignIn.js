@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './SignIn.css';
 import { useNavigate } from 'react-router-dom';
 
+
 const SignIn = ({ addUser }) => {
   const [form, setForm] = useState({
     username: "",
@@ -58,13 +59,13 @@ const SignIn = ({ addUser }) => {
       <h1 className='sign-heading'>Sign Up Here!</h1>
       <form onSubmit={submitHandler} className='signup-form'>
         <div className='form-collection'>
-          <input
+          <input className='in-put'
             type='text' name='username' value={form.username} placeholder='Username'   ref={userRef} onChange={handleChange}/>
-          <input type='email' name='email' placeholder='Email' value={form.email} onChange={handleChange} />
+          <input  className='input-email' type='email' name='email' placeholder='Email' value={form.email} onChange={handleChange} />
           <p >{errors.email}</p>
-          <input type='text' name='phoneno' value={form.phoneno} placeholder='Phone Number' onChange={handleChange}/>
+          <input  className='input-ph' type='text' name='phoneno' value={form.phoneno} placeholder='Phone Number' onChange={handleChange}/>
            <p >{errors.phoneno}</p>
-          <input type='password' name='password' value={form.password} placeholder='Password' onChange={handleChange} />
+          <input  className='input-pas' type='password' name='password' value={form.password} placeholder='Password' onChange={handleChange} />
            <p >{errors.password}</p>
           <br />
           <button type='submit' className='submit-button'>Sign Up</button>

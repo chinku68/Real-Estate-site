@@ -1,0 +1,57 @@
+.sec-img{
+    height: 60vh;
+}
+
+/* .title{
+    margin-left: -70rem;
+    margin-bottom: 18rem;
+    color: aliceblue;
+    font-size: 22px;
+} */
+ .card-p{
+    margin-bottom: 11rem;
+    margin-left: -50rem;
+    font-size: larger;
+    
+
+
+ }
+ .title{
+    font-size: 24px;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 700;
+ }
+ .bhkk{
+    color: rgb(119, 192, 255);
+    font-size: x-large;
+ }
+ .lux{
+    color: #c71285;
+    font-weight: 700;
+ }
+ .prop-type{
+    font-weight: 700;
+ }
+ .keey{
+    
+    font-size: 14px;
+    color: #c71285;
+    
+ }
+ .valu{
+    color: black;
+ }
+ .button-e{
+    background-color: transparent;
+    border:2px solid black;
+    color: black;
+    padding: 3px;
+    font-size: medium;
+    border-radius: 4px;
+    margin-left: -15rem;
+    
+ }
+ .image-h{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+ }  

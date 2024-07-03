@@ -2,13 +2,16 @@ import React from 'react'
 import './Home.css'
 
 import NavigatationBar from './BootComponents/NavigatationBar'
+import Acres from './BootComponents/Acres'
+import SearchBar from './SearchBar'
 
 
 const Home = () => {
   return (
-    <div className='home-bg'>
+    <div >
      {/* <NavigatationBar/> */}
-      <h1 className='main-heading'>SucessFully LoggedIn</h1>
+      <Acres/>
+      <SearchBar/>
     </div>
   )
 }

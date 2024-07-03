@@ -1,0 +1,37 @@
+[
+  {
+    "Propertytype": "Villa",
+    "title": "Abhignas Misty Woods",
+    "Address": "Warangal",
+    "BHK type": "4BHK",
+    "Area range": "110 sq.m-189 sq.m",
+    "image": "https://res.cloudinary.com/dfaxgzkuc/image/upload/v1719306375/home-three_fvxays.jpg"
+  },
+  {
+    "Propertytype": "Project",
+    "title": "Aparna Newlands",
+    "Address": "Rajendra Nagar, Hyderabad",
+    "BHK type": "2BHK,3BHK,4BHK",
+    "Area range": "200 sq.m-280 sq.m",
+    "image": "https://res.cloudinary.com/dfaxgzkuc/image/upload/v1719306390/home-one_d5io6i.jpg"
+  },
+  {
+    "Propertytype": "Farm House",
+    "title": "Village FormHouse",
+    "Address": "Vadodara",
+    "BHK type": "3BHK,4BHK",
+    "Area range": "Up to 2 acres",
+    "image": "https://res.cloudinary.com/dfaxgzkuc/image/upload/v1719306382/home-two_wsnthw.jpg"
+  },
+  {
+    "Propertytype": "Dublex",
+    "title": "Anantha Shublab",
+    "Address": "Vadodara",
+    "BHK type": "2BHK,3BHK,4BHK",
+    "Area range": "Up to 5 acres",
+    "image": "https://res.cloudinary.com/dfaxgzkuc/image/upload/v1719306382/home-two_wsnthw.jpg"
+  }
+]
+
+
+  
