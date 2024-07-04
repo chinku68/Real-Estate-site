@@ -8,7 +8,7 @@ const Acres = () => {
   return (
     <div>
       <Carousel data-bs-theme="dark">
-        {data.map((item,index) => (
+        {data.acres.map((item,index) => (
           <Carousel.Item key={index}>
             <img
               className="d-block w-100 sec-img image-h"
@@ -31,3 +31,7 @@ const Acres = () => {
 }
 
 export default Acres;
+
+
+
+

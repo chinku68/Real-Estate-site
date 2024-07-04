@@ -1,6 +1,6 @@
 .card-search{
 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 183, 255, 0.24) 0px 3px 8px;
     width: 60vw;
     margin-top: -3rem;
     z-index: 1000 !important;
@@ -40,11 +40,12 @@
 }
 .search-input{
     width: 30rem;
-    height: 3.9rem;
+    height: 3.8rem;
     border: 0px;
-    
+    outline: none; 
 
 }
+
 .bot-bar{
     background-color: white;
     border:2px solid #dcdcdc;

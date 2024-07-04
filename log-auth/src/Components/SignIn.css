@@ -1,7 +1,7 @@
 .sup-body {
     background-size: 100%;
     background-image: url(https://dotnet.microsoft.com/blob-assets/images/illustrations/carousel/cloud-native.png);
-    height: 100vh;
+    height: 103vh;
     margin-top:-1.5rem;
     
   }
@@ -14,16 +14,15 @@
 
 
   .signup-form {
-    display: flex;
-    flex-direction: column;
+  
     width: 400px;
     padding: 20px;
     background: linear-gradient(to left, rgb(252, 252, 252), #f8daff);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 7, 7, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 24rem;
     
-    align-items: center;
+    
     
   }
 .in-put {
@@ -35,6 +34,7 @@
     background:  #ddd5f7;
     height: 2.5rem;
     width: 15rem;
+    outline: none; 
   }
  .submit-button {
     padding: 10px;
@@ -56,7 +56,7 @@
     
   }
   .input-email{
-    margin-top:20px;
+    margin-top:40px;
     padding: 0px  5px;
     border: 0px ;
     border-radius: 4px;
@@ -64,6 +64,7 @@
     background:  #ddd5f7;
     height: 2.5rem;
     width: 15rem;
+    outline: none; 
   }
   .input-ph{
     margin-top:20px;
@@ -74,14 +75,16 @@
     background:  #ddd5f7;
     height: 2.5rem;
     width: 15rem;
+    outline: none; 
   }
   .input-pas{
     margin-top:20px;
     padding: 0px  5px;
     border: 0px ;
     border-radius: 4px;
-    border-left:5px solid rgb(48, 155, 255) ;
+    border-left:5px solid rgb(40, 124, 202) ;
     background:  #ddd5f7;
     height: 2.5rem;
     width: 15rem;
+    outline: none; 
   }

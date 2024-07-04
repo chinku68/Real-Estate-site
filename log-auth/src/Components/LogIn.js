@@ -15,7 +15,7 @@ const LogIn = ({ users }) => {
     const { name, value } = e.target;
     setLogin({ ...login, [name]: value });
   };
-
+  
   const handleLoginTypeChange = (e) => {
     setLoginType(e.target.value);
     setLogin({ identifier: '', password: '' });
@@ -53,6 +53,7 @@ return Object.keys(newErrors).length === 0;
 
       if (user) {
         navigate('/home');
+        
       } else {
          setErrors({ identifier: 'You enterer Invalid details' });
       }
@@ -79,7 +80,7 @@ return Object.keys(newErrors).length === 0;
         </div>
         <div>
           
-          <input className='input-l'
+          <input className='input-email'
             type={loginType === 'email' ? 'text' : 'tel'}
             name="identifier"  value={login.identifier} onChange={handleChange} placeholder={`Enter ${loginType === 'email' ? 'email' : 'phone number'}`}
             required ref={logRef}
@@ -88,7 +89,7 @@ return Object.keys(newErrors).length === 0;
         </div>
         <div>
           
-          <input className='input-l'
+          <input className='input-pas'
             type="password" name="password" value={login.password} onChange={handleChange}  placeholder="Enter password" required
           />
         <p>{errors.password}</p>

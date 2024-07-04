@@ -1,4 +1,6 @@
-[
+{
+
+ "acres": [
   {
     "Propertytype": "Villa",
     "title": "Abhignas Misty Woods",
@@ -31,7 +33,434 @@
     "Area range": "Up to 5 acres",
     "image": "https://res.cloudinary.com/dfaxgzkuc/image/upload/v1719306382/home-two_wsnthw.jpg"
   }
+],
+
+"card":[
+  
+  {
+    "projectimg":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+    "ProjTitle":"Lakeview Apartments",
+    "Slots":"130",
+    "floors":"11",
+    "areainacrs":"3.8",
+    "loc":"Mahbubnagar",
+    "price":"170k"
+  },
+
+
+   {
+    "projectimg": "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+    "ProjTitle": "Golden Heights",
+    "Slots": "120",
+    "floors": "9",
+    "areainacrs": "3",
+    "loc": "Hyderabad",
+    "price": "150k"
+  },
+  
+  {
+    "projectimg":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+    "ProjTitle":"Elisia",
+    "Slots":"123",
+    "floors":"9",
+    "areainacrs":"2",
+    "loc":"RangaReddy",
+    "price":"140k"
+  },
+  {
+    "projectimg": "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+    "ProjTitle": "Silver Meadows",
+    "Slots": "140",
+    "floors": "12",
+    "areainacrs": "3.5",
+    "loc": "Warangal",
+    "price": "160k"
+  },
+  
+  {
+    "projectimg": "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+    "ProjTitle": "Diamond Park",
+    "Slots": "180",
+    "floors": "14",
+    "areainacrs": "4.2",
+    "loc": "Nizamabad",
+    "price": "170k"
+  },
+  
+  
+  {
+    "projectimg":" https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+    "ProjTitle":"Nova Heights",
+    "Slots":"150",
+    "floors":"12",
+    "areainacrs":"3",
+    "loc":"Hyderabad",
+    "price":"145k"
+  },
+  {
+    "projectimg":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+    "ProjTitle":"Skyline Towers",
+    "Slots":"100",
+    "floors":"8",
+    "areainacrs":"2.5",
+    "loc":"Warangal",
+    "price":"150k"
+  },
+  {
+    "projectimg":"https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/buy/webp/new-projects.webp",
+    "ProjTitle":"Green Valley",
+    "Slots":"200",
+    "floors":"15",
+    "areainacrs":"4",
+    "loc":"Nizamabad",
+    "price":"155k"
+  },
+  {
+    "projectimg":"https://as2.ftcdn.net/v2/jpg/08/50/31/69/1000_F_850316941_QgYPZGNnQ3msj1zPiDTz5l6WfurAYfXx.jpg",
+    "ProjTitle":"Sunrise Residency",
+    "Slots":"175",
+    "floors":"10",
+    "areainacrs":"3.5",
+    "loc":"Karimnagar",
+    "price":"160k"
+  },
+  {
+    "projectimg": "https://static.99acres.com/universalhp/img/d_hp_plot_land_IS_CORNER_PROPERTY.webp",
+    "ProjTitle": "Emerald Villas",
+    "Slots": "160",
+    "floors": "11",
+    "areainacrs": "3.7",
+    "loc": "Karimnagar",
+    "price": "165k"
+  },
+  {
+    "projectimg":"https://t3.ftcdn.net/jpg/00/74/79/66/240_F_74796641_JZCEebph0V67sZWKdmRQNrlU5lG59QKI.jpg",
+    "ProjTitle":"Pearl Towers",
+    "Slots":"90",
+    "floors":"7",
+    "areainacrs":"2.2",
+    "loc":"Khammam",
+    "price":"165k"
+  }
+],
+"cities":[
+  {
+  "city":"Warangal",
+  "Properties":"564",
+  "ctimage":"https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg"
+},
+{
+  "city":"Yadadri",
+  "Properties":"108",
+  "ctimage":"https://openplot.com/static/media/yadagiri.92e53a11ba7c59ee9068.jpg"
+},
+{
+  "city":"Nizambad",
+  "Properties":"1056",
+  "ctimage":"https://openplot.com/static/media/Nizamabad.ccc7e334e338ddec8b6a.jpg"
+},
+{
+  "city":"SangaReddy",
+  "Properties":"454",
+  "ctimage":"https://openplot.com/static/media/nalgonda.f825de386d3466f08189.jpg"
+},
+{
+  "city":"Medak",
+  "Properties":"653",
+  "ctimage":"https://openplot.com/static/media/medak.d63705b0654fc724a62f.jpg"
+},
+{
+  "city":"Mahabubnagar",
+  "Properties":"187",
+  "ctimage":"https://openplot.com/static/media/mahbubnagar.772a6ebef92d3cf88229.jpg"
+},
+{
+  "city":"Hyderabad",
+  "Properties":"897",
+  "ctimage":"https://media.istockphoto.com/id/160629294/photo/india-hyderabad.jpg?s=612x612&w=0&k=20&c=RbDpiWwaHhu0AZHyyurNP6g__tiCSBCZDp8OafW0izk="
+}
+,
+{
+  "city":"Karimnagar",
+  "Properties":"5642",
+  "ctimage":" https://openplot.com/static/media/karimnagar.64257bb6ab0e67b58cca.jpg"
+}
+
+],
+"filter":[
+  { 
+    "price": 100, 
+    "date": "2023-01-01", 
+    "projectname": "Luxury Apartments in Downtown" 
+  },
+  { 
+    "price": 250, 
+    "date": "2023-01-06", 
+    "projectname": "Seaside Villas" 
+  },
+  { 
+    "price": 140, 
+    "date": "2023-01-12", 
+    "projectname": "Garden View Homes" 
+  },
+  { 
+    "price": 280, 
+    "date": "2023-01-17", 
+    "projectname": "Lakefront Properties" 
+  },
+  { 
+    "price": 170, 
+    "date": "2023-01-23", 
+    "projectname": "Mountain Retreats" 
+  },
+  { 
+    "price": 90, 
+    "date": "2023-01-30", 
+    "projectname": "Urban Condos" 
+  },
+  { 
+    "price": 320, 
+    "date": "2023-02-04", 
+    "projectname": "Golf Course Residences" 
+  },
+  { 
+    "price": 60, 
+    "date": "2023-02-10", 
+    "projectname": "Riverfront Homes" 
+  },
+  { 
+    "price": 210, 
+    "date": "2023-02-15", 
+    "projectname": "Suburban Estates" 
+  },
+  { 
+    "price": 80, 
+    "date": "2023-02-21", 
+    "projectname": "Skyline Apartments" 
+  },
+  { 
+    "price": 310, 
+    "date": "2023-02-27", 
+    "projectname": "Countryside Retreats" 
+  },
+  { 
+    "price": 70, 
+    "date": "2023-03-05", 
+    "projectname": "Beachfront Condos" 
+  },
+  { 
+    "price": 220, 
+    "date": "2023-03-11", 
+    "projectname": "Hilltop Residences" 
+  },
+  { 
+    "price": 110, 
+    "date": "2023-03-17", 
+    "projectname": "Lakeview Properties" 
+  },
+  { 
+    "price": 260, 
+    "date": "2023-03-23", 
+    "projectname": "City Center Apartments" 
+  },
+  { 
+    "price": 50, 
+    "date": "2023-03-29", 
+    "projectname": "Townhouse Communities" 
+  },
+  { 
+    "price": 300, 
+    "date": "2023-04-04", 
+    "projectname": "Luxury Homes" 
+  },
+  { 
+    "price": 150, 
+    "date": "2023-04-10", 
+    "projectname": "Resort Living" 
+  },
+  { 
+    "price": 190, 
+    "date": "2023-04-16", 
+    "projectname": "Waterfront Villas" 
+  },
+  { 
+    "price": 240, 
+    "date": "2023-04-22", 
+    "projectname": "Exclusive Gated Community" 
+  },
+  { 
+    "price": 310, 
+    "date": "2023-04-28", 
+    "projectname": "Modern Apartments" 
+  },
+  { 
+    "price": 170, 
+    "date": "2023-05-04", 
+    "projectname": "City Lofts" 
+  },
+  { 
+    "price": 320, 
+    "date": "2023-05-10", 
+    "projectname": "Penthouse Suites" 
+  },
+  { 
+    "price": 140, 
+    "date": "2023-05-16", 
+    "projectname": "Downtown Condos" 
+  },
+  { 
+    "price": 270, 
+    "date": "2023-05-22", 
+    "projectname": "Uptown Residences" 
+  },
+  { 
+    "price": 120, 
+    "date": "2023-05-28", 
+    "projectname": "Historic Homes" 
+  },
+  { 
+    "price": 280, 
+    "date": "2023-06-03", 
+    "projectname": "Eco-Friendly Homes" 
+  },
+  { 
+    "price": 160, 
+    "date": "2023-06-09", 
+    "projectname": "Solar Villas" 
+  },
+  { 
+    "price": 100, 
+    "date": "2023-06-15", 
+    "projectname": "Green Estates" 
+  },
+  { 
+    "price": 300, 
+    "date": "2023-06-21", 
+    "projectname": "Urban Townhouses" 
+  },
+  { 
+    "price": 140, 
+    "date": "2023-06-27", 
+    "projectname": "Smart Homes" 
+  },
+  { 
+    "price": 180, 
+    "date": "2023-07-03", 
+    "projectname": "Tech-Integrated Villas" 
+  },
+  { 
+    "price": 290, 
+    "date": "2023-07-09", 
+    "projectname": "Connected Condos" 
+  },
+  { 
+    "price": 70, 
+    "date": "2023-07-15", 
+    "projectname": "Fiber-Optic Residences" 
+  },
+  { 
+    "price": 230, 
+    "date": "2023-07-21", 
+    "projectname": "City Lights Apartments" 
+  },
+  { 
+    "price": 60, 
+    "date": "2023-07-27", 
+    "projectname": "Parkside Homes" 
+  },
+  { 
+    "price": 200, 
+    "date": "2023-08-02", 
+    "projectname": "Suburban Villas" 
+  },
+  { 
+    "price": 130, 
+    "date": "2023-08-08", 
+    "projectname": "Luxury Estates" 
+  },
+  { 
+    "price": 220, 
+    "date": "2023-08-14", 
+    "projectname": "Exclusive Townhouses" 
+  },
+  { 
+    "price": 90, 
+    "date": "2023-08-20", 
+    "projectname": "Beachside Residences" 
+  },
+  { 
+    "price": 260, 
+    "date": "2023-08-26", 
+    "projectname": "Lakefront Villas" 
+  },
+  { 
+    "price": 160, 
+    "date": "2023-09-01", 
+    "projectname": "Hilltop Homes" 
+  },
+  { 
+    "price": 240, 
+    "date": "2023-09-07", 
+    "projectname": "Mountain View Apartments" 
+  },
+  { 
+    "price": 100, 
+    "date": "2023-09-13", 
+    "projectname": "River View Condos" 
+  },
+  { 
+    "price": 190, 
+    "date": "2023-09-19", 
+    "projectname": "Forest Retreats" 
+  },
+  { 
+    "price": 80, 
+    "date": "2023-09-25", 
+    "projectname": "Desert Villas" 
+  },
+  { 
+    "price": 270, 
+    "date": "2023-10-01", 
+    "projectname": "Prairie Estates" 
+  },
+  { 
+    "price": 50, 
+    "date": "2023-10-07", 
+    "projectname": "Country Homes" 
+  },
+  { 
+    "price": 250, 
+    "date": "2023-10-13", 
+    "projectname": "Farmland Residences" 
+  },
+  { 
+    "price": 140, 
+    "date": "2023-10-19", 
+    "projectname": "Meadow View Villas" 
+  },
+  { 
+    "price": 60, 
+    "date": "2023-10-25", 
+    "projectname": "Orchard Homes" 
+  },
+  { 
+    "price": 210, 
+    "date": "2023-10-31", 
+    "projectname": "Vineyard Estates" 
+  },
+  { 
+    "price": 30, 
+    "date": "2023-11-06", 
+    "projectname": "Winery Villas" 
+  },
+  { 
+    "price": 90, 
+    "date": "2023-11-12", 
+    "projectname": "Cottage Homes" 
+  }
 ]
+
+}
 
 
   

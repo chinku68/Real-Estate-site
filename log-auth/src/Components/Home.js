@@ -4,6 +4,8 @@ import './Home.css'
 import NavigatationBar from './BootComponents/NavigatationBar'
 import Acres from './BootComponents/Acres'
 import SearchBar from './SearchBar'
+import Multicard from './Multicard'
+import Test from './Test'
 
 
 const Home = () => {
@@ -12,6 +14,10 @@ const Home = () => {
      {/* <NavigatationBar/> */}
       <Acres/>
       <SearchBar/>
+      <Test/>
+      <Multicard/>
+      
+
     </div>
   )
 }
