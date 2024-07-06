@@ -111,7 +111,7 @@
 .property-button:hover{
     cursor: pointer;
     margin-top: 8px;
-    background-color: #00a0d9;
+    background-color: #dff0fb;
     color: black;
 
 }
@@ -376,4 +376,9 @@
   top: 10px;
   right: 10px;
   border-radius: 5px;
+}
+.fav-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

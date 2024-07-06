@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';         
 import { useNavigate } from 'react-router-dom';
 import listprop from './ListProperty.json';
 import './Datefilter.css';
@@ -16,6 +16,7 @@ import ApartmentIcon from '@mui/icons-material/Apartment';
 import BorderClearIcon from '@mui/icons-material/BorderClear';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import dataaa from '../Components/Project.json'
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const Datefilter = () => {
   const [sortBy, setSortBy] = useState('Newest');
@@ -118,6 +119,7 @@ const Datefilter = () => {
     }
     setData(sortedData);
   };
+ 
 
   const filterData = (data, types, categories, bhks, facings, status, ptype) => {
     return data.filter(item =>
@@ -213,6 +215,13 @@ const Datefilter = () => {
     const url = `${item.category}-${item.projectname.replace(' ','')}-${item.price}`;
     window.open(url, '_blank');
   };
+
+const handelFav =(e) =>{
+  e.stopPropagation();
+  navigate('/fav');
+}
+
+
   const renderOnlineShoppingCard = () => {
     return (
       <div className='carosel-add'>
@@ -308,7 +317,7 @@ const Datefilter = () => {
             <h3>Kokapet</h3>
             <p>&#8377;9,900 / sq.ft</p>
             <p>400+ Registries</p>
-            <a href="#">View Properties</a>
+            <a href="">View Properties</a>
           </div>
         </div>
         <div className="locality">
@@ -317,7 +326,7 @@ const Datefilter = () => {
             <h3>Shaikpet</h3>
             <p>&#8377;9,450 / sq.ft</p>
             <p>400+ Registries</p>
-            <a href="#">View Properties</a>
+            <a href="">View Properties</a>
           </div>
         </div>
         <div className="locality">
@@ -326,10 +335,10 @@ const Datefilter = () => {
             <h3>Moti Nagar</h3>
             <p>&#8377;10,050 / sq.ft</p>
             <p>350+ Registries</p>
-            <a href="#">View Properties</a>
+            <a href="">View Properties</a>
           </div>
         </div>
-        <a href="#" className="view-all">View 827 localities</a>
+        <a href="" className="view-all">View 827 localities</a>
       </div>
     </div>
     );
@@ -536,7 +545,10 @@ const Datefilter = () => {
                 <div className='list-home d-flex flex-row'>
                   <img className='property-img' src={item.img} alt={item.projectname} />
                   <div className='p-4'>
+                    <div className='fav-icon'>
                     <h4 className='proj-title'> {item.projectname.toUpperCase()}</h4>
+                    <FavoriteBorderOutlinedIcon onClick={handelFav} />
+                    </div>
                     <h5 className='proj-price'><span style={{color:"red"}}>{item.price} $   </span> <span style={{color:"#c7c7c7",fontSize:"18px"}}>@7.5$/- per sqyd</span></h5>
                     <h6 className='proj-ptype'>{item.propertytype}</h6>
                     <div className='face-card'>
