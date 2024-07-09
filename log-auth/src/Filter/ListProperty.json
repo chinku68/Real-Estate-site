@@ -6,7 +6,7 @@
       "propertytype": "Independent House",
       "category": "residential",
       "noofbedrooms": "1 BHK",
-      "facing": "east",
+      "facing": "southeast",
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
@@ -14,6 +14,7 @@
     },
     {
       "price": 250,
+      
       "date": "2023-01-06",
       "projectname": "Seaside Villas",
       "propertytype": "Apartment",
@@ -123,9 +124,10 @@
       "propertytype": "Storage",
       "category": "commercial",
       "noofbedrooms": "10 BHK",
-      "facing": "west",
+      
       "postedby": "Owner",
       "purchasetype": "Resale",
+      "facing": "west",
       "constructionstatus": "Ready To Move",
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp"
     },
@@ -273,7 +275,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 17876,
+      "price": 178,
       "date": "2023-05-04",
       "projectname": "City Lofts",
       "propertytype": "Industry",
@@ -286,7 +288,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 32890,
+      "price": 328,
       "date": "2023-05-10",
       "projectname": "Penthouse Suites",
       "propertytype": "Venture",
@@ -299,7 +301,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 1465,
+      "price": 146,
       "date": "2023-05-16",
       "projectname": "Downtown Condos",
       "propertytype": "Project",
@@ -312,7 +314,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
     },
     {
-      "price": 2745,
+      "price": 275,
       "date": "2023-05-22",
       "projectname": "Uptown Residences",
       "propertytype": "Land",
@@ -325,7 +327,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
     },
     {
-      "price": 12450,
+      "price": 450,
       "date": "2023-05-28",
       "projectname": "Historic Homes",
       "propertytype": "Other",
@@ -338,7 +340,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
     },
     {
-      "price": 28450,
+      "price": 284,
       "date": "2023-06-03",
       "projectname": "Eco-Friendly Homes",
       "propertytype": "Independent House",
@@ -351,7 +353,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 16780,
+      "price":780,
       "date": "2023-06-09",
       "projectname": "Solar Villas",
       "propertytype": "Apartment",
@@ -364,7 +366,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
     },
     {
-      "price": 17800,
+      "price": 800,
       "date": "2023-06-15",
       "projectname": "Green Estates",
       "propertytype": "Independent Floor",
@@ -377,7 +379,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 304560,
+      "price": 456,
       "date": "2023-06-21",
       "projectname": "Urban Townhouses",
       "propertytype": "Plot",
@@ -390,7 +392,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 147780,
+      "price": 477,
       "date": "2023-06-27",
       "projectname": "Smart Homes",
       "propertytype": "1RK",
@@ -403,7 +405,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
     },
     {
-      "price": 18078,
+      "price": 178,
       "date": "2023-07-03",
       "projectname": "Tech-Integrated Villas",
       "propertytype": "VillaFarm",
@@ -416,7 +418,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
     },
     {
-      "price": 26790,
+      "price": 269,
       "date": "2023-07-09",
       "projectname": "Connected Condos",
       "propertytype": "House",
@@ -429,7 +431,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
     },
     {
-      "price": 7780,
+      "price": 980,
       "date": "2023-07-15",
       "projectname": "Fiber-Optic Residences",
       "propertytype": "Office",
@@ -442,7 +444,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
     },
     {
-      "price": 24530,
+      "price": 249,
       "date": "2023-07-21",
       "projectname": "City Lights Apartments",
       "propertytype": "Store/Retail",
@@ -455,7 +457,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 67890,
+      "price": 678,
       "date": "2023-07-27",
       "projectname": "Parkside Homes",
       "propertytype": "Storage",
@@ -468,7 +470,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 208,
+      "price": 278,
       "date": "2023-08-02",
       "projectname": "Suburban Villas",
       "propertytype": "Industry",
@@ -481,7 +483,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 13780,
+      "price": 199,
       "date": "2023-08-08",
       "projectname": "Luxury Estates",
       "propertytype": "Venture",
@@ -494,7 +496,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
     },
     {
-      "price": 28920,
+      "price": 289,
       "date": "2023-08-14",
       "projectname": "Exclusive Townhouses",
       "propertytype": "Project",
@@ -507,7 +509,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
     },
     {
-      "price": 78990,
+      "price": 790,
       "date": "2023-08-20",
       "projectname": "Beachside Residences",
       "propertytype": "Land",
@@ -520,7 +522,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
     },
     {
-      "price": 89260,
+      "price": 268,
       "date": "2023-08-26",
       "projectname": "Lakefront Villas",
       "propertytype": "Other",
@@ -533,7 +535,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
     },
     {
-      "price": 98160,
+      "price": 981,
       "date": "2023-09-01",
       "projectname": "Hilltop Homes",
       "propertytype": "Independent House",
@@ -546,7 +548,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 18410,
+      "price": 184,
       "date": "2023-09-07",
       "projectname": "Mountain View Apartments",
       "propertytype": "Apartment",
@@ -559,7 +561,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 30870,
+      "price": 300,
       "date": "2023-09-13",
       "projectname": "Riverfront Condos",
       "propertytype": "Independent Floor",
@@ -572,7 +574,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 7450,
+      "price": 740,
       "date": "2023-09-19",
       "projectname": "Urban Retreats",
       "propertytype": "Plot",
@@ -585,7 +587,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
     },
     {
-      "price": 24450,
+      "price": 240,
       "date": "2023-09-25",
       "projectname": "Seaside Apartments",
       "propertytype": "1RK",
@@ -598,7 +600,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
     },
     {
-      "price": 184560,
+      "price":460,
       "date": "2023-10-01",
       "projectname": "Lakeview Homes",
       "propertytype": "VillaFarm",
@@ -611,7 +613,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
     },
     {
-      "price": 31450,
+      "price": 314,
       "date": "2023-10-07",
       "projectname": "City Center Residences",
       "propertytype": "House",
@@ -624,7 +626,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
     },
     {
-      "price": 12650,
+      "price": 650,
       "date": "2023-10-13",
       "projectname": "Suburban Condos",
       "propertytype": "Store/Retail",
@@ -637,7 +639,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 294560,
+      "price": 294,
       "date": "2023-10-19",
       "projectname": "Garden Homes",
       "propertytype": "Storage",
@@ -650,7 +652,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 18450,
+      "price": 150,
       "date": "2023-10-25",
       "projectname": "Urban Villas",
       "propertytype": "Industry",
@@ -663,7 +665,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 14500,
+      "price": 800,
       "date": "2023-10-31",
       "projectname": "Downtown Residences",
       "propertytype": "Venture",
@@ -676,7 +678,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
     },
     {
-      "price": 21550,
+      "price": 670,
       "date": "2023-11-06",
       "projectname": "Seaside Villas",
       "propertytype": "Project",
@@ -689,7 +691,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
     },
     {
-      "price": 14540,
+      "price": 167,
       "date": "2023-11-12",
       "projectname": "Garden View Homes",
       "propertytype": "Land",
@@ -702,7 +704,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
     },
     {
-      "price": 2850,
+      "price": 293,
       "date": "2023-11-18",
       "projectname": "Lakefront Properties",
       "propertytype": "Other",
@@ -715,7 +717,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
     },
     {
-      "price": 8780,
+      "price": 878,
       "date": "2023-11-24",
       "projectname": "Mountain Retreats",
       "propertytype": "Independent House",
@@ -728,7 +730,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
     },
     {
-      "price": 3420,
+      "price": 920,
       "date": "2023-11-30",
       "projectname": "Golf Course Residences",
       "propertytype": "Apartment",
@@ -741,7 +743,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
     },
     {
-      "price": 640,
+      "price": 690,
       "date": "2023-12-06",
       "projectname": "Riverfront Homes",
       "propertytype": "Independent Floor",
@@ -754,7 +756,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 2110,
+      "price": 110,
       "date": "2023-12-12",
       "projectname": "Suburban Estates",
       "propertytype": "VillaFarm",
@@ -767,7 +769,7 @@
       "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
     },
     {
-      "price": 811110,
+      "price": 810,
       "date": "2023-12-18",
       "projectname": "Skyline Apartments",
       "propertytype": "House",
@@ -777,10 +779,10 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":"https://openplot.com/static/media/FarmHouse.1abe1f2b86fd13a96eac.jpg"
     },
     {
-      "price": 31110,
+      "price": 311,
       "date": "2023-12-24",
       "projectname": "Countryside Retreats",
       "propertytype": "Office",
@@ -790,10 +792,10 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp"
     },
     {
-      "price": 7440,
+      "price": 744,
       "date": "2023-09-30",
       "projectname": "Beachfront Condos",
       "propertytype": "Store/Retail",
@@ -803,9 +805,9 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":"https://openplot.com/static/media/villa.04cfcadd023a78a02c08.jpg"
     },{
-      "price": 7440,
+      "price": 744,
       "date": "2024-12-30",
       "projectname": "Beachfront Condos",
       "propertytype": "Store/Retail",
@@ -815,9 +817,9 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp"
     },{
-      "price": 12345,
+      "price": 999,
       "date": "2024-12-30",
       "projectname": "Beachfront Condos",
       "propertytype": "Store/Retail",
@@ -826,8 +828,8 @@
       "facing": "west",
       "postedby": "Builder",
       "purchasetype": "Resale",
-      "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "constructionstatus": "",
+      "img":"https://openplot.com/static/media/Land.1cb54faf5ad7697c3ef0.jpg"
     }
   ]
-  
+    

@@ -47,3 +47,13 @@ const DisplayProp = () => {
 };
 
 export default DisplayProp;
+
+
+
+
+
+
+
+
+
+

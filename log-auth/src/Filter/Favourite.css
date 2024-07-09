@@ -1,0 +1,101 @@
+/* favorite.css */
+/* .f-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+  }
+ 
+ 
+  
+  .d-car{
+    background: linear-gradient(to right, #eaf6ff 50%, #fdeaff 50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .list-hom{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .property-im {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: #cdf7ff;
+  }
+  
+  .p-4 {
+    flex: 1;
+  }
+  
+  .proj-titl {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .proj-pric {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  .proj-ptyp {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .face-car {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .proj-dat {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+   */
+
+
+   .d-car{
+    background: linear-gradient(to right, #ffffff, #fdeaff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20rem;
+    
+  }
+  .proj-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+  }
+
+
+  .fav-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .property-im {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: #cdf7ff;
+  }
+  

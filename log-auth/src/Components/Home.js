@@ -11,7 +11,7 @@ import Test from './Test'
 const Home = () => {
   return (
     <div >
-     {/* <NavigatationBar/> */}
+     <NavigatationBar/>
       <Acres/>
       <SearchBar/>
       <Test/>
