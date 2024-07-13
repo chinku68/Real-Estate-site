@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import listprop from './ListProperty.json';
 import './DisplayProp.css';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const DisplayProp = () => {
   const { id } = useParams();
@@ -17,11 +19,19 @@ const DisplayProp = () => {
       {property ? (
         <div className='param-container'>
           <div className='d-flex flex-row col-12'>
-            <img
-              className='param-img col-5'
-              src={property.img}
-              alt={property.projectname}
-            />
+            <div className='param-img col-5'>
+            <Carousel prevIcon={<span className="carousel-control-prev-icon" />} nextIcon={<span className="carousel-control-next-icon" />}>
+                {property.img.map((imageUrl, index) => (
+                  <Carousel.Item key={index}>
+                    <img  className='param-img' src={imageUrl} alt={`Property Image ${index + 1}`} />
+                    <div className="carousel-overlay">
+                    <span className="image-count">{`${index + 1} / ${property.img.length}`}</span>
+                  </div>
+                  </Carousel.Item>
+                ))}
+              </Carousel>
+              
+            </div>
             <div>
               <h2>{property.projectname.toUpperCase()}</h2>
               <p>Price: {property.price} $</p>

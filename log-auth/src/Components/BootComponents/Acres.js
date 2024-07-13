@@ -16,11 +16,13 @@ const Acres = () => {
               alt="img"
             />
             <Carousel.Caption>
+              <div>
               <div className='card-p'>
                 <h5 className='title'>{item.title}</h5>
                 <h4><span className='bhkk'>{item["BHK type"]}</span> <span className='lux'>LUXURY</span>   <span className='prop-type'>{item.Propertytype.toUpperCase()}</span></h4>
                 <p className='para-address'> <span className='keey'>Area Range: </span><span className='valu'>{item["Area range"]} </span><span style={{color:"black"}}>| |</span><span  className='keey'>    Address:</span><span  className='valu'> {item.Address}</span></p>
                 <button className='button-e'>Explore Now <ArrowForwardIcon style={{fontSize:"medium"}}/></button>
+              </div>
               </div>
             </Carousel.Caption>
           </Carousel.Item>

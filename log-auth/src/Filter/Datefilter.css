@@ -46,11 +46,15 @@
     justify-content: space-around;
 }
 .property-img{
-    height: 14rem;
-    width: 14rem;
+    height:17rem;
+    width:19rem;
     background-color: #c5f2ff;
     border-radius: 10px;
+    display: 100%;
 
+}
+.carosel-width{
+  width:19rem ;
 }
 .fil-cards{
     display: flex;
@@ -64,7 +68,7 @@
 .opt-carde{
  
     margin-left: 3rem;
-    height: 30rem;
+    height:40rem;
    width: 25rem;
    margin-right: 0;
    overflow-y: scroll;
@@ -114,12 +118,13 @@
 .property-button:hover{
     cursor: pointer;
     margin-top: 8px;
-    background-color: #80ccff;
+    background-color: #addeff;
     color: black;
 
 }
-.property-button.active :hover{
-    background-color: #00a0d9 !important;
+.property-button.active:hover {
+  /* Change text color to white when hovered over */
+  background-color: #00a0d9; /* Example background color */
 }
 .face-card{
    
@@ -525,6 +530,42 @@ hr {
   background: var(--slider-thumb-color, #4CAF50) !important;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* CardList.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #f8f9fa; /* Light grey background for pagination */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pagination button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:16px;
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+}
+
+.pagination button:disabled {
+  background-color: #c0c0c0; /* Grey color for disabled state */
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+  margin: 0 10px;
 }
 
 

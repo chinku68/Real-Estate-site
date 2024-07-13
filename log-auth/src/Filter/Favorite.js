@@ -22,7 +22,7 @@ const Favorite = ({ favorites,handleAddFav,handleContactOwner}) => {
           {favorites.map((item, index) => (
             <div className='d-car ' key={index}>
               <div className='list-hom d-flex flex-row'>
-                <img className='property-img  ' src={item.img} alt={item.projectname} />
+                <img className='property-img  ' src={item.img[0]} alt={item.projectname} />
                 <div className='p-4 col-'>
                   <div className='d-flex flex-row fav-row' >
                   <h4 className='proj-title'>{item.projectname.toUpperCase()}</h4>
@@ -70,7 +70,7 @@ const Favorite = ({ favorites,handleAddFav,handleContactOwner}) => {
   );
 };
                                                         
-export default Favorite;                                                      
+export default Favorite;                                           
                       
 
 

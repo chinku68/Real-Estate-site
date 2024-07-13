@@ -57,5 +57,172 @@
         transition: transform 1.5s ease;
  }  
 
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+}
 
+.search-container {
+   display: flex;
+   align-items: center;
+   border: 1px solid #ccc;
+   padding: 5px;
+   border-radius: 5px;
+   width:40%;
+   height: 46px;
+ }
  
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .dropdown-button {
+   background-color: #f1f1f1;
+   border: none;
+   padding: 8px;
+   cursor: pointer;
+   width: 4rem;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   left: 0;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown-content a:hover {
+   background-color: #f1f1f1;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+ 
+ .search-inpuut {
+   flex-grow: 1;
+   border: none;
+   padding: 8px;
+   outline: none;
+   margin-left: 5px;
+ }
+ 
+ .profile-container {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .prof {
+   display: flex;
+   border: 1px solid #ccc;
+   align-items: center;
+   padding: 5px;
+   border-radius: 5px;
+   width: 7rem;
+   height: 46px;
+   cursor: pointer;
+ }
+ 
+ .prof-name {
+   margin-left: 0.5rem;
+   padding-top: 0.4rem;
+ }
+ 
+ .dropdown-menu {
+   display: none;
+   position: absolute;
+   top: 48px;
+   left: 0;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   border-radius: 5px;
+   z-index: 1;
+   min-width: 160px;
+ }
+ 
+ .profile-container:hover .dropdown-menu {
+   display: block;
+ }
+ 
+ .dropdown-menu a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown-menu a:hover {
+   background-color: #f1f1f1;
+ }
+ 
+ .list-pr{
+   display: flex;
+   border: 1px solid #ccc;
+   align-items: center;
+   border: 1px solid #ccc;
+   padding: 5px;
+   border-radius: 5px;
+   
+   height: 46px;
+   
+
+ }
+ .listyour{
+   padding-top: 0.4rem;
+ }
+ .row-img{
+   border-radius: 50%;
+   
+  background-color: #c2f0ff;
+  height: 7rem;
+  width: 7rem;
+  object-fit: fill;
+  
+ }
+ .row-container{
+   border: 1px solid #ccc;
+   display: flex;
+
+ }
+ .bot-name{
+   font-size:16px;
+   color: black;
+   font-weight: 500;
+   text-align:center;
+ }
+ .row-imgs{
+   margin: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+ }
+ .buyin{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+ }
+ .list-loc{
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 2rem;
+  height: 46px;
+  
+
+}

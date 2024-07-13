@@ -10,7 +10,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 250,
@@ -24,7 +33,7 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp","https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"]
     },
     {
       "price": 140,
@@ -37,7 +46,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 280,
@@ -50,7 +68,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 178,
@@ -63,7 +90,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 900,
@@ -76,7 +112,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 367,
@@ -89,7 +134,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 650,
@@ -102,7 +156,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 29,
@@ -115,7 +178,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_9.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_9.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 86,
@@ -129,7 +201,16 @@
       "purchasetype": "Resale",
       "facing": "west",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 316,
@@ -142,7 +223,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 7,
@@ -155,7 +245,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_12.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_12.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 227,
@@ -168,7 +267,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 119,
@@ -181,7 +289,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 269,
@@ -194,7 +311,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 577,
@@ -207,7 +333,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 399,
@@ -220,7 +355,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 157,
@@ -233,7 +377,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 195,
@@ -246,7 +399,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 243,
@@ -259,7 +421,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 31,
@@ -272,7 +443,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 178,
@@ -285,7 +465,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 328,
@@ -298,7 +487,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 146,
@@ -311,7 +509,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 275,
@@ -324,7 +531,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 450,
@@ -337,7 +553,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 284,
@@ -350,7 +575,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price":780,
@@ -363,7 +597,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 800,
@@ -376,7 +619,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 456,
@@ -389,7 +641,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 477,
@@ -402,7 +663,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 178,
@@ -415,7 +685,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 269,
@@ -428,7 +707,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 980,
@@ -441,7 +729,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 249,
@@ -454,7 +751,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 678,
@@ -467,7 +773,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 278,
@@ -480,7 +795,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 199,
@@ -493,7 +817,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 289,
@@ -506,7 +839,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 790,
@@ -519,7 +861,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 268,
@@ -532,7 +883,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 981,
@@ -545,7 +905,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 184,
@@ -558,7 +927,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 300,
@@ -571,7 +949,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 740,
@@ -584,7 +971,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 240,
@@ -597,7 +993,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price":460,
@@ -610,7 +1015,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 314,
@@ -623,7 +1037,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 650,
@@ -636,7 +1059,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 294,
@@ -649,7 +1081,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 150,
@@ -662,7 +1103,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":[
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 800,
@@ -675,7 +1125,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 670,
@@ -688,7 +1147,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_plot_land_IN_GATED_SOCIETY.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 167,
@@ -701,7 +1169,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 293,
@@ -714,7 +1191,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_90.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 878,
@@ -727,7 +1213,16 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 920,
@@ -740,7 +1235,16 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 690,
@@ -753,7 +1257,16 @@
       "postedby": "Owner",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 110,
@@ -766,7 +1279,16 @@
       "postedby": "Builder",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 810,
@@ -779,7 +1301,16 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":"https://openplot.com/static/media/FarmHouse.1abe1f2b86fd13a96eac.jpg"
+      "img":["https://openplot.com/static/media/FarmHouse.1abe1f2b86fd13a96eac.jpg",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
       "price": 311,
@@ -792,32 +1323,16 @@
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp"
-    },
-    {
-      "price": 744,
-      "date": "2023-09-30",
-      "projectname": "Beachfront Condos",
-      "propertytype": "Store/Retail",
-      "category": "commercial",
-      "noofbedrooms": "2 BHK",
-      "facing": "west",
-      "postedby": "Builder",
-      "purchasetype": "Resale",
-      "constructionstatus": "Ready To Move",
-      "img":"https://openplot.com/static/media/villa.04cfcadd023a78a02c08.jpg"
-    },{
-      "price": 744,
-      "date": "2024-12-30",
-      "projectname": "Beachfront Condos",
-      "propertytype": "Store/Retail",
-      "category": "commercial",
-      "noofbedrooms": "2 BHK",
-      "facing": "west",
-      "postedby": "Builder",
-      "purchasetype": "Resale",
-      "constructionstatus": "Ready To Move",
-      "img":"https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp"
+      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },{
       "price": 999,
       "date": "2024-12-30",
@@ -828,8 +1343,50 @@
       "facing": "west",
       "postedby": "Builder",
       "purchasetype": "Resale",
-      "constructionstatus": "",
-      "img":"https://openplot.com/static/media/Land.1cb54faf5ad7697c3ef0.jpg"
-    }
+      "constructionstatus": "Under Construction",
+      "img":["https://static.99acres.com/universalhp/img/d_hp_plot_land_WITHIN_BOUNDARY_WALL.webp",
+             "https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp",
+              "https://static.99acres.com/universalhp/img/d_hp_plot_land_EAST_FACING.webp"
+          ]
+      }, {
+      "price": 745,
+      "date": "2023-09-30",
+      "projectname": "Beachfront Condos",
+      "propertytype": "Store/Retail",
+      "category": "commercial",
+      "noofbedrooms": "2 BHK",
+      "facing": "west",
+      "postedby": "Builder",
+      "purchasetype": "Resale",
+      "constructionstatus": "Ready To Move",
+      "img":["https://static.99acres.com/universalhp/img/d_hp_plot_land_EAST_FACING.webp", 
+          "https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp",
+           "https://static.99acres.com/universalhp/img/d_hp_plot_land_EAST_FACING.webp"
+            ]
+    },
+    {
+       "price": 744,
+       "date": "2024-12-31",
+       "projectname": "Beachfront Condos",
+       "propertytype": "Store/Retail",
+       "category": "commercial",
+       "noofbedrooms": "2 BHK",
+       "facing": "west",
+       "postedby": "Builder",
+       "purchasetype": "Resale",
+       "constructionstatus": "Ready To Move",
+       "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_10.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_plot_land_EAST_FACING.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_4.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_5.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+               "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
+     }
   ]
     

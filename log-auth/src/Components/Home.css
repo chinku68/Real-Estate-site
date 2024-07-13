@@ -7,3 +7,119 @@
 .main-heading{
     color: white;
 }
+/* src/PropertyCard.css */
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .card::before,
+  .card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px; /* Adjust the width to match the curve size */
+    background-color: #ffffff;
+  }
+  
+  .card::before {
+    left: -10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .card::after {
+    right: -10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .card-header {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffcc00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .property-image {
+    width: 100%;
+    border-top-left-radius: -10px;
+    border-top-right-radius: -100px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .property-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .property-location {
+    margin: 5px 0;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  .property-price {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .property-details {
+    margin: 5px 0;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  .price-increase {
+    margin: 5px 0;
+    color: green;
+    font-size: 14px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .options {
+    font-size: 12px;
+    color: #007bff;
+  }
+  
+  .view-number {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .view-number:hover {
+    background-color: #0056b3;
+  }
+  
