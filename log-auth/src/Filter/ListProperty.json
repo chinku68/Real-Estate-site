@@ -1,6 +1,6 @@
 [
     {
-      "price": 100,
+      "price": "100",
       "date": "2023-01-01",
       "projectname": "Luxury Apartments in Downtown",
       "propertytype": "Independent House",
@@ -112,7 +112,8 @@
       "postedby": "Agent",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
+      "img":[
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_6.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
@@ -124,17 +125,19 @@
       "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
-      "price": 367,
-      "date": "2023-02-04",
-      "projectname": "Golf Course Residences",
-      "propertytype": "House",
-      "category": "commercial",
       "noofbedrooms": "7 BHK",
       "facing": "north",
       "postedby": "Owner",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
+      "price": 367,
+      "date": "2023-02-04",
+      "projectname": "Golf Course Residences",
+      "propertytype": "Farm House",
+      "category": "commercial",
+      
+      "img":[
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
@@ -156,7 +159,8 @@
       "postedby": "Builder",
       "purchasetype": "Resale",
       "constructionstatus": "Ready To Move",
-      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
+      "img":[
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
@@ -178,7 +182,8 @@
       "postedby": "Agent",
       "purchasetype": "New",
       "constructionstatus": "Under Construction",
-      "img":["https://static.99acres.com/universalhp/img/d_hp_property_type_9.webp",
+      "img":[
+      "https://static.99acres.com/universalhp/img/d_hp_property_type_9.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_1.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_2.webp",
       "https://static.99acres.com/universalhp/img/d_hp_property_type_3.webp",
@@ -414,7 +419,7 @@
       "price": 243,
       "date": "2023-04-22",
       "projectname": "Exclusive Gated Community",
-      "propertytype": "House",
+      "propertytype": "Farm House",
       "category": "commercial",
       "noofbedrooms": "10 BHK",
       "facing": "south",
@@ -700,7 +705,7 @@
       "price": 269,
       "date": "2023-07-09",
       "projectname": "Connected Condos",
-      "propertytype": "House",
+      "propertytype": "Farm House",
       "category": "commercial",
       "noofbedrooms": "3 BHK",
       "facing": "east",
@@ -895,7 +900,7 @@
       "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
-      "price": 981,
+      "price": "981",
       "date": "2023-09-01",
       "projectname": "Hilltop Homes",
       "propertytype": "Independent House",
@@ -1030,7 +1035,7 @@
       "price": 314,
       "date": "2023-10-07",
       "projectname": "City Center Residences",
-      "propertytype": "House",
+      "propertytype": "Farm House",
       "category": "commercial",
       "noofbedrooms": "8 BHK",
       "facing": "south",
@@ -1115,7 +1120,7 @@
       "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },
     {
-      "price": 800,
+      "price": "800",
       "date": "2023-10-31",
       "projectname": "Downtown Residences",
       "propertytype": "Venture",
@@ -1294,7 +1299,7 @@
       "price": 810,
       "date": "2023-12-18",
       "projectname": "Skyline Apartments",
-      "propertytype": "House",
+      "propertytype": "Farm House",
       "category": "commercial",
       "noofbedrooms": "10 BHK",
       "facing": "south",
@@ -1335,7 +1340,7 @@
       "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
     },{
       "price": 999,
-      "date": "2024-12-30",
+      "date": "2024-01-30",
       "projectname": "Beachfront Condos",
       "propertytype": "Store/Retail",
       "category": "commercial",
@@ -1366,7 +1371,7 @@
     },
     {
        "price": 744,
-       "date": "2024-12-31",
+       "date": "2024-01-31",
        "projectname": "Beachfront Condos",
        "propertytype": "Store/Retail",
        "category": "commercial",
@@ -1387,6 +1392,6 @@
                "https://static.99acres.com/universalhp/img/d_hp_property_type_7.webp",
                "https://static.99acres.com/universalhp/img/d_hp_property_type_22.webp",
                "https://static.99acres.com/universalhp/img/d_hp_property_type_99.webp"]
-     }
+     }  
   ]
     

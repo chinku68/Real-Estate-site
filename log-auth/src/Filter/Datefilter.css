@@ -96,7 +96,7 @@
     font-size: 10px;
     border: 2px solid #bebebe;
     border-radius: 510px;
-    margin-top: 10px;
+    margin-top:4px;
     cursor: pointer;
     font-weight:500;
     background-color: hsl(0, 0%, 96%);
@@ -106,9 +106,7 @@
   
  
   
-  .collapse-opt {
-    margin-bottom: 10px;
-  }
+  
   .property-button.active {
     
     background: #00a0d9;
@@ -117,7 +115,7 @@
   }
 .property-button:hover{
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 0px;
     background-color: #addeff;
     color: black;
 
@@ -378,12 +376,18 @@
 .property-rera {
   background-color: #00aaff;
   color: white;
-  padding: 5px;
-  font-size: 0.9em;
+width: 35px;
+ 
+height:20px;
   position: absolute;
   top: 10px;
   right: 10px;
+  
   border-radius: 5px;
+}
+.neww{
+  color: white;
+  padding: 2px;
 }
 .fav-icon{
   display: flex;
@@ -566,6 +570,14 @@ hr {
 .pagination span {
   font-size: 16px;
   margin: 0 10px;
+}
+.collapse-opt {
+  margin-bottom:2px;
+}
+.collapse-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
 }
 
 

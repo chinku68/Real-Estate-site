@@ -1,0 +1,15 @@
+{
+    "background.fullscreen": {
+      "images": ["https://res.cloudinary.com/dfaxgzkuc/image/upload/v1721809963/fqtjalmq895yjknjf1cm.jpg"],
+      "opacity": 0.82,
+      "size":"100% 90%", 
+      "position":"right",
+      "margin":"auto 20%", 
+      "interval":1 
+    }
+  }
+  //https://images.pexels.com/photos/18495/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+  //https://www.pexels.com/photo/mirror-photography-of-high-rise-buildings-354777/
+
+  //https://www.pexels.com/photo/view-of-cityscape-325185/

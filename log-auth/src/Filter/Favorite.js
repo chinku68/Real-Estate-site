@@ -5,6 +5,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 
 
 const Favorite = ({ favorites,handleAddFav,handleContactOwner}) => {
+  // let favorites =favorite.reverse();
 
   const isFavorited = (item) => favorites.some(fav => fav.price === item.price);
   useEffect(() => {

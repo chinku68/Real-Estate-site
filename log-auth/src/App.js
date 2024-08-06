@@ -40,6 +40,8 @@ const App = () => {
   };
 
   const handleAddFav = (e, item) => {
+    e.preventDefault();
+
     e.stopPropagation();
     if (favorites.some(fav => fav.price === item.price)) {
       setFavorites(favorites.filter(fav => fav.price !== item.price));
@@ -61,7 +63,7 @@ const App = () => {
     setCardOpen(false);
   };
 
-  const currentUser = users.length > 0 ? users[0] : { username: '', email: '', phoneno: '' };
+  const currentUser = users.length > 0 ? users[users.length - 1] : { username: '', email: '', phoneno: '' };
 
   return (
     <>

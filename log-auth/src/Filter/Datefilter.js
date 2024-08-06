@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import listprop from './ListProperty.json';
 import './Datefilter.css';
-// import { navigate } from 'react-router-dom'; 
+ import { navigate } from 'react-router-dom'; 
 import Collapsible from 'react-collapsible';
 import ExploreIcon from '@mui/icons-material/Explore';
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -28,11 +28,17 @@ import Carousel from 'react-bootstrap/Carousel';
 import RangeSlider from 'react-range-slider-input';
 import 'react-range-slider-input/dist/style.css';
 import ListView from './ListView';
-const ITEMS_PER_PAGE = 12;
+
+
+
+const ITEMS_PER_PAGE =10;
 
 const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
+let savedPropertyList = localStorage.getItem('propertyList');
+let unpackArr = JSON.parse(savedPropertyList );
+let propertiies =[...listprop,...unpackArr.reverse()];
   const [sortBy, setSortBy] = useState('Newest');
-  const [data, setData] = useState(listprop);
+  const [data, setData] = useState(propertiies);
   const [selectedPropertyTypes, setSelectedPropertyTypes] = useState([]);
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedBhk, setSelectedBhk] = useState([]);
@@ -46,6 +52,13 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
   const [maxPrice, setMaxPrice] = useState(1000);
   const [viewType, setViewType] = useState('card');
   const [currentPage, setCurrentPage] = useState(1);
+
+
+
+  
+
+
+ 
   const settings = {
     dots: false, 
     infinite: true,
@@ -121,16 +134,32 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
 
   const handlePrevClick = (e) => {
     e.stopPropagation();
-    // Additional logic if needed
+    
+  };
+  
+  const [hoveredCarousels, setHoveredCarousels] = useState({});
+
+  const handleMouseEnter = (e,item) => {
+    setHoveredCarousels((prev) => ({
+      ...prev,
+      [item.price]: true,
+    }));
+  };
+
+  const handleMouseLeave = (e,item) => {
+    setHoveredCarousels((prev) => ({
+      ...prev,
+      [item.price]: false,
+    }));
   };
 
   const handleNextClick = (e) => {
     e.stopPropagation();
-    // Additional logic if needed
+    
   };
 
   const handleChangeView = (event) => {
-    setViewType(event.target.value); // Update viewType based on user selection
+    setViewType(event.target.value); 
   };
 
   useEffect(() => {
@@ -140,7 +169,7 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
     const [min, max] = value;
     setMinPrice(min);
     setMaxPrice(max);
-    const filteredData = filterData(listprop, selectedPropertyTypes, selectedCategories, selectedBhk, selectedFacing, selectedStatus, selectedPtype, min, max);
+    const filteredData = filterData(propertiies, selectedPropertyTypes, selectedCategories, selectedBhk, selectedFacing, selectedStatus, selectedPtype, min, max);
     let sortedData = [...filteredData];
     switch (sortBy) {
       case 'High to Low':
@@ -165,7 +194,7 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
   const handleSortChange = (e) => {
     const sortValue = e.target.value;
     setSortBy(sortValue);
-    const filteredData = filterData(listprop, selectedPropertyTypes, selectedCategories, selectedBhk, selectedFacing, selectedStatus, selectedPtype, minPrice, maxPrice);
+    const filteredData = filterData(propertiies, selectedPropertyTypes, selectedCategories, selectedBhk, selectedFacing, selectedStatus, selectedPtype, minPrice, maxPrice);
     let sortedData = [...filteredData];
     switch (sortValue) {
       case 'High to Low':
@@ -210,7 +239,7 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
 
   const handleFilterChange = (updatedFilters, setter, filterType) => {
     setter(updatedFilters);
-    let filteredData = [...listprop];
+    let filteredData = [...propertiies];
     if (filterType === 'propertyType') {
       filteredData = filterData(filteredData, updatedFilters, selectedCategories, selectedBhk, selectedFacing, selectedStatus, selectedPtype, minPrice, maxPrice);
     } else if (filterType === 'category') {
@@ -456,7 +485,7 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
               <p>{project.priceRange}</p>
             </div>
             <div className="property-rera">
-              <h6>new</h6>
+              <p className='neww'>new</p>
             </div>
           </div>
         ))}
@@ -491,12 +520,15 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
         <Link to="/fav">
         <button className='btn'>View Favorites  </button> 
       </Link>
+
+      <div><h6>Total No of Properties : {data.length}</h6></div> 
           <div className="select-container">
             <select value={viewType} onChange={handleChangeView}>
               <option value="list">ListView</option>
               <option value="card">CardView</option>
             </select>
           </div>
+          
           <div>
           <select value={sortBy} onChange={handleSortChange}>
             <option value='Newest'>Newest</option>
@@ -633,7 +665,9 @@ const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
     onClick={handleNextClick}
     prevIcon={<span className="carousel-control-prev-icon" />}
     nextIcon={<span className="carousel-control-next-icon" />}
-    interval={null}
+    interval={hoveredCarousels[item] ? 500 : null}
+    onMouseEnter={(e) => handleMouseEnter(e,item)}
+    onMouseLeave={(e) => handleMouseLeave(e,item)}
   >
     {item.img.map((imageUrl, index) => (
       <Carousel.Item key={index}>
