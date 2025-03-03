@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom';
 const SignIn = ({ addUser }) => {
   const [form, setForm] = useState({
     username: "",
-    email: "",
-    password: "",
-    phoneno: ""
+    email:"",
+    password:"",
+    phoneno:""
   });
 
   const handleChange = (e) => {
