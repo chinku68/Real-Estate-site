@@ -1,4 +1,4 @@
-.card-search{
+.card-search {
 
     box-shadow: rgba(0, 183, 255, 0.24) 0px 3px 8px;
     width: 60vw;
@@ -10,51 +10,58 @@
     border-radius: 10px;
 
 }
-.top-sec{
+
+.top-sec {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 16px;
 }
-.row-items{
+
+.row-items {
     color: #686868;
-    border-bottom : 4px solid transparent;
+    border-bottom: 4px solid transparent;
     padding-bottom: 10px;
 }
-.row-items:hover{
+
+.row-items:hover {
     color: black;
     cursor: pointer;
-    
+
     border-bottom: 4px solid #2e6dff;
 }
-.dd-area{
-    border:2px solid #dcdcdc;
+
+.dd-area {
+    border: 2px solid #dcdcdc;
     width: 10rem;
     height: 4rem;
 }
-.bot-sec{
+
+.bot-sec {
     display: flex;
     flex-direction: row;
-  margin-top: 2rem;
-    
+    margin-top: 2rem;
+
 }
-.search-input{
+
+.search-input {
     width: 30rem;
     height: 3.8rem;
     border: 0px;
-    outline: none; 
+    outline: none;
 
 }
 
-.bot-bar{
+.bot-bar {
     background-color: white;
-    border:2px solid #dcdcdc;
+    border: 2px solid #dcdcdc;
     width: 47.5rem;
     height: 4rem;
-    
-    
+
+
 }
-.se-button{
+
+.se-button {
     background-color: #2e6dff;
     border: none;
     color: white;

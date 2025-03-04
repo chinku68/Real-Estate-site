@@ -70,7 +70,7 @@ const SearchBar = () => {
               style={{ color: '#0078db', margin: '5px 20px' }}
               onClick={handleStartListening}
             />
-            <button className='se-button'>search</button>
+            <button className='se-button'>Search</button>
           </div>
         </div>
       </div>

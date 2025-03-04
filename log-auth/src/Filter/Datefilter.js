@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';         
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import listprop from './ListProperty.json';
 import './Datefilter.css';
- import { navigate } from 'react-router-dom'; 
+import { navigate } from 'react-router-dom';
 import Collapsible from 'react-collapsible';
 import ExploreIcon from '@mui/icons-material/Explore';
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -17,7 +17,7 @@ import BorderClearIcon from '@mui/icons-material/BorderClear';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import dataaa from '../Components/Project.json'
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Favorite from './Favorite';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -31,12 +31,12 @@ import ListView from './ListView';
 
 
 
-const ITEMS_PER_PAGE =10;
+const ITEMS_PER_PAGE = 10;
 
-const Datefilter = ({favorite, handleAddFav,handleContactOwner }) => {
-let savedPropertyList = localStorage.getItem('propertyList');
-let unpackArr = JSON.parse(savedPropertyList );
-let propertiies =[...listprop,...unpackArr.reverse()];
+const Datefilter = ({ favorite, handleAddFav, handleContactOwner }) => {
+  let savedPropertyList = localStorage.getItem('propertyList');
+  let unpackArr = JSON.parse(savedPropertyList);
+  let propertiies = [...listprop, ...unpackArr.reverse()];
   const [sortBy, setSortBy] = useState('Newest');
   const [data, setData] = useState(propertiies);
   const [selectedPropertyTypes, setSelectedPropertyTypes] = useState([]);
@@ -55,12 +55,12 @@ let propertiies =[...listprop,...unpackArr.reverse()];
 
 
 
-  
 
 
- 
+
+
   const settings = {
-    dots: false, 
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -70,7 +70,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
   const projectsIn = [
     {
       name: "Elisia",
-      location: "Hyderabad", 
+      location: "Hyderabad",
       priceRange: "₹ 63.29 L - 1.12 Cr",
       image: "https://openplot.com/static/media/medak.d63705b0654fc724a62f.jpg"
     },
@@ -84,7 +84,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
       name: "SKY",
       location: "Hyderabad",
       priceRange: "₹ 1 - 2.01 Cr",
-      image:"https://openplot.com/static/media/Nizamabad.ccc7e334e338ddec8b6a.jpg"
+      image: "https://openplot.com/static/media/Nizamabad.ccc7e334e338ddec8b6a.jpg"
     },
     {
       name: "Green Vally",
@@ -102,13 +102,13 @@ let propertiies =[...listprop,...unpackArr.reverse()];
       name: "Marvin",
       location: " Hyderabad",
       priceRange: "₹ 1 - 2 Cr",
-      image:"https://openplot.com/static/media/Nizamabad.ccc7e334e338ddec8b6a.jpg"
+      image: "https://openplot.com/static/media/Nizamabad.ccc7e334e338ddec8b6a.jpg"
     }
   ];
 
   const statusType = ['Under Construction', 'Ready To Move'];
   const purType = ['New', 'Resale'];
-  const facingType = ['east', 'west', 'north', 'south','southeast','southwest','northeast','northwest'];
+  const facingType = ['east', 'west', 'north', 'south', 'southeast', 'southwest', 'northeast', 'northwest'];
   const bhkType = [
     '1 BHK', '2 BHK', '3 BHK', '4 BHK', '5 BHK',
     '6 BHK', '7 BHK', '8 BHK', '9 BHK', '10 BHK'
@@ -134,19 +134,19 @@ let propertiies =[...listprop,...unpackArr.reverse()];
 
   const handlePrevClick = (e) => {
     e.stopPropagation();
-    
+
   };
-  
+
   const [hoveredCarousels, setHoveredCarousels] = useState({});
 
-  const handleMouseEnter = (e,item) => {
+  const handleMouseEnter = (e, item) => {
     setHoveredCarousels((prev) => ({
       ...prev,
       [item.price]: true,
     }));
   };
 
-  const handleMouseLeave = (e,item) => {
+  const handleMouseLeave = (e, item) => {
     setHoveredCarousels((prev) => ({
       ...prev,
       [item.price]: false,
@@ -155,11 +155,11 @@ let propertiies =[...listprop,...unpackArr.reverse()];
 
   const handleNextClick = (e) => {
     e.stopPropagation();
-    
+
   };
 
   const handleChangeView = (event) => {
-    setViewType(event.target.value); 
+    setViewType(event.target.value);
   };
 
   useEffect(() => {
@@ -188,7 +188,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
     }
     setData(sortedData);
   };
-  
+
 
 
   const handleSortChange = (e) => {
@@ -215,16 +215,16 @@ let propertiies =[...listprop,...unpackArr.reverse()];
     }
     setData(sortedData);
   };
- 
+
 
   const filterData = (data, types, categories, bhks, facings, status, ptype, minPrice, maxPrice) => {
     return data.filter(item =>
       (types.length === 0 || types.includes(item.propertytype)) &&
-      (categories.length === 0 || categories.includes(item.category))&&
-      (bhks.length === 0 || bhks.includes(item.noofbedrooms))&&
-      (facings.length === 0 || facings.includes(item.facing))&&
-      (status.length === 0 || status.includes(item.constructionstatus))&&
-      (ptype.length === 0 || ptype.includes(item.purchasetype))&&
+      (categories.length === 0 || categories.includes(item.category)) &&
+      (bhks.length === 0 || bhks.includes(item.noofbedrooms)) &&
+      (facings.length === 0 || facings.includes(item.facing)) &&
+      (status.length === 0 || status.includes(item.constructionstatus)) &&
+      (ptype.length === 0 || ptype.includes(item.purchasetype)) &&
       item.price >= minPrice && item.price <= maxPrice
     );
   };
@@ -323,7 +323,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
   };
 
   const handleCardClick = (item) => {
-    const url = `${item.category}-${item.projectname.replace(' ','')}-${item.price}`;
+    const url = `${item.category}-${item.projectname.replace(' ', '')}-${item.price}`;
     window.open(url, '_blank');
   }
 
@@ -336,161 +336,161 @@ let propertiies =[...listprop,...unpackArr.reverse()];
   //   } else {
   //     setFavorites([...favorites, item]);
   //   }
-   
+
   // };
   const isFavorited = (item) => favorite.some(fav => fav.price === item.price);
   useEffect(() => {
-    console.log(favorite); 
+    console.log(favorite);
   }, [favorite]);
 
 
-  
+
 
   const renderOnlineShoppingCard = () => {
     return (
       <div className='carosel-add'>
-      <div className="slider-container">
-        <h5 className='add-heading'> Newly Launched Projects</h5>
-      <Slider {...settings}>
-      {dataaa.card.map((item,index) =>( 
-          <div className='m-card' key={index}>
-              <img className='c-img' src={item.projectimg} alt={item.ProjTitle}/>   
-              <h4 className='c-head'>{item.ProjTitle.toUpperCase()}</h4>
-              <div className='slots'>
-                <div className='slot'>
-                  <KingBedOutlinedIcon style={{fontSize:"x-large",paddingLeft:"6px" ,paddingTop:"3px"}}/>
-                  <p className='slot-p'>{item.Slots} Slots</p>
+        <div className="slider-container">
+          <h5 className='add-heading'> Newly Launched Projects</h5>
+          <Slider {...settings}>
+            {dataaa.card.map((item, index) => (
+              <div className='m-card' key={index}>
+                <img className='c-img' src={item.projectimg} alt={item.ProjTitle} />
+                <h4 className='c-head'>{item.ProjTitle.toUpperCase()}</h4>
+                <div className='slots'>
+                  <div className='slot'>
+                    <KingBedOutlinedIcon style={{ fontSize: "x-large", paddingLeft: "6px", paddingTop: "3px" }} />
+                    <p className='slot-p'>{item.Slots} Slots</p>
+                  </div>
+
+                  <div className='slot'>
+                    <ApartmentIcon style={{ fontSize: "x-large", paddingLeft: "6px", paddingTop: "3px" }} />
+                    <p className='slot-p'>{item.floors} Floors</p>
+                  </div>
+                  <div className='slot'>
+                    <BorderClearIcon style={{ fontSize: "x-large", paddingLeft: "6px", paddingTop: "3px" }} />
+                    <p className='slot-p'>{item.areainacrs} acres</p>
+                  </div>
                 </div>
-                
-                <div className='slot'>
-                  <ApartmentIcon style={{fontSize:"x-large",paddingLeft:"6px" ,paddingTop:"3px"}}/>
-                  <p className='slot-p'>{item.floors} Floors</p>
+                <div className='card-loc'>
+                  <LocationOnOutlinedIcon style={{ color: "red", paddingLeft: "5px" }} />
+                  <p className='loc-para'>{item.loc}</p>
+                  <p className='loc-para-cost'>$    {item.price}</p>
                 </div>
-                <div className='slot'>
-                  <BorderClearIcon style={{fontSize:"x-large",paddingLeft:"6px" ,paddingTop:"3px"}}/>
-                  <p className='slot-p'>{item.areainacrs} acres</p>
-                </div>  
               </div>
-              <div className='card-loc'>
-                <LocationOnOutlinedIcon style={{color:"red",paddingLeft:"5px"}}/>
-                <p className='loc-para'>{item.loc}</p>
-                <p className='loc-para-cost'>$    {item.price}</p>
-              </div>
-            </div>
-           ))}
-      
-        
-        
-      </Slider>
-    </div>
-        
-      </div>  
+            ))}
+
+
+
+          </Slider>
+        </div>
+
+      </div>
     );
   };
 
   const renderCollegeAdCard = () => {
     return (
       <div className="card-container">
-      <div className="card">
-        <h2>Top Rated Localities</h2>
-        <p>based on actual resident reviews</p>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="KPHB" />
-          <div className="locality-info">
-            <h3>KPHB</h3>
-            <p>&#8377;8,700 / sq.ft</p>
-            <p>600+ reviews</p>
-            <a href="#">View Properties</a>
+        <div className="card">
+          <h2>Top Rated Localities</h2>
+          <p>based on actual resident reviews</p>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="KPHB" />
+            <div className="locality-info">
+              <h3>KPHB</h3>
+              <p>&#8377;8,700 / sq.ft</p>
+              <p>600+ reviews</p>
+              <a href="#">View Properties</a>
+            </div>
+            <div className="rating">
+              <span>4.5</span>
+            </div>
           </div>
-          <div className="rating">
-            <span>4.5</span>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Madhapur" />
+            <div className="locality-info">
+              <h3>Madhapur</h3>
+              <p>&#8377;6,950 / sq.ft</p>
+              <p>600+ reviews</p>
+              <a href="#">View Properties</a>
+            </div>
+            <div className="rating">
+              <span>4.5</span>
+            </div>
           </div>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Hi Tech City" />
+            <div className="locality-info">
+              <h3>Hi Tech City</h3>
+              <p>&#8377;12,450 / sq.ft</p>
+              <p>250+ reviews</p>
+              <a href="#">View Properties</a>
+            </div>
+            <div className="rating">
+              <span>4.5</span>
+            </div>
+          </div>
+          <a href="#" className="view-all">View 721 localities</a>
         </div>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Madhapur" />
-          <div className="locality-info">
-            <h3>Madhapur</h3>
-            <p>&#8377;6,950 / sq.ft</p>
-            <p>600+ reviews</p>
-            <a href="#">View Properties</a>
+        <div className="card">
+          <h2>Localities with Most Sold Properties</h2>
+          <p>in last 1 year in Hyderabad</p>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Kokapet" />
+            <div className="locality-info">
+              <h3>Kokapet</h3>
+              <p>&#8377;9,900 / sq.ft</p>
+              <p>400+ Registries</p>
+              <a href="">View Properties</a>
+            </div>
           </div>
-          <div className="rating">
-            <span>4.5</span>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Shaikpet" />
+            <div className="locality-info">
+              <h3>Shaikpet</h3>
+              <p>&#8377;9,450 / sq.ft</p>
+              <p>400+ Registries</p>
+              <a href="">View Properties</a>
+            </div>
           </div>
+          <div className="locality">
+            <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Moti Nagar" />
+            <div className="locality-info">
+              <h3>Moti Nagar</h3>
+              <p>&#8377;10,050 / sq.ft</p>
+              <p>350+ Registries</p>
+              <a href="">View Properties</a>
+            </div>
+          </div>
+          <a href="" className="view-all">View 827 localities</a>
         </div>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Hi Tech City" />
-          <div className="locality-info">
-            <h3>Hi Tech City</h3>
-            <p>&#8377;12,450 / sq.ft</p>
-            <p>250+ reviews</p>
-            <a href="#">View Properties</a>
-          </div>
-          <div className="rating">
-            <span>4.5</span>
-          </div>
-        </div>
-        <a href="#" className="view-all">View 721 localities</a>
       </div>
-      <div className="card">
-        <h2>Localities with Most Sold Properties</h2>
-        <p>in last 1 year in Hyderabad</p>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Kokapet" />
-          <div className="locality-info">
-            <h3>Kokapet</h3>
-            <p>&#8377;9,900 / sq.ft</p>
-            <p>400+ Registries</p>
-            <a href="">View Properties</a>
-          </div>
-        </div>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Shaikpet" />
-          <div className="locality-info">
-            <h3>Shaikpet</h3>
-            <p>&#8377;9,450 / sq.ft</p>
-            <p>400+ Registries</p>
-            <a href="">View Properties</a>
-          </div>
-        </div>
-        <div className="locality">
-          <img src="https://openplot.com/static/media/warangal.bb38f7e3cd6961523394.jpg" alt="Moti Nagar" />
-          <div className="locality-info">
-            <h3>Moti Nagar</h3>
-            <p>&#8377;10,050 / sq.ft</p>
-            <p>350+ Registries</p>
-            <a href="">View Properties</a>
-          </div>
-        </div>
-        <a href="" className="view-all">View 827 localities</a>
-      </div>
-    </div>
     );
   };
 
   const renderMobileAdCard = () => {
     return (
       <div className="projects-in-hyderabad">
-      <h2>Projects in Hyderabad</h2>
-      <p>Inspired by your search preferences</p>
-      <div className="property-list">
-        {projectsIn.map((project, index) => (
-          <div key={index} className="property-card">
-            <div className="property-image">
-              <img src={project.image} alt={project.name} />
+        <h2>Projects in Hyderabad</h2>
+        <p>Inspired by your search preferences</p>
+        <div className="property-list">
+          {projectsIn.map((project, index) => (
+            <div key={index} className="property-card">
+              <div className="property-image">
+                <img src={project.image} alt={project.name} />
+              </div>
+              <div className="property-info">
+                <h3>{project.name}</h3>
+                <p>{project.location}</p>
+                <p>{project.priceRange}</p>
+              </div>
+              <div className="property-rera">
+                <p className='neww'>new</p>
+              </div>
             </div>
-            <div className="property-info">
-              <h3>{project.name}</h3>
-              <p>{project.location}</p>
-              <p>{project.priceRange}</p>
-            </div>
-            <div className="property-rera">
-              <p className='neww'>new</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
     );
   };
 
@@ -507,42 +507,42 @@ let propertiies =[...listprop,...unpackArr.reverse()];
     }
   };
 
- 
- 
 
 
-  
+
+
+
 
   return (
     <>
       <div>
         <div className='d-flex f-row  dd-filter'>
-        <Link to="/fav">
-        <button className='btn'>View Favorites  </button> 
-      </Link>
+          <Link to="/fav">
+            <button className='btn'>View Favorites  </button>
+          </Link>
 
-      <div><h6>Total No of Properties : {data.length}</h6></div> 
+          <div><h6>Total No of Properties : {data.length}</h6></div>
           <div className="select-container">
             <select value={viewType} onChange={handleChangeView}>
               <option value="list">ListView</option>
               <option value="card">CardView</option>
             </select>
           </div>
-          
+
           <div>
-          <select value={sortBy} onChange={handleSortChange}>
-            <option value='Newest'>Newest</option>
-            <option value='High to Low'>High to Low</option>
-            <option value='Low to High'>Low to High</option>
-            <option value='Oldest'>Oldest</option>
-          </select>
+            <select value={sortBy} onChange={handleSortChange}>
+              <option value='Newest'>Newest</option>
+              <option value='High to Low'>High to Low</option>
+              <option value='Low to High'>Low to High</option>
+              <option value='Oldest'>Oldest</option>
+            </select>
           </div>
         </div>
       </div>
       {viewType === 'card' && <div className='col-12 d-flex flex-row'>
         <div className='col-4 '>
           <div className='opt-carde p-2'>
-            <h6  className='heading'>Apply Filters Here</h6>  
+            <h6 className='heading'>Apply Filters Here</h6>
             <hr />
             <Collapsible trigger="Property Type">
               <div className="collapse-container">
@@ -575,24 +575,24 @@ let propertiies =[...listprop,...unpackArr.reverse()];
             </Collapsible>
             <hr />
             <div className="price-range-container">
-      <h6>Price Range</h6>
-      <RangeSlider
-        min={0}
-        max={1000}
-        step={1}
-        value={[minPrice, maxPrice]}
-        onInput={handlePriceRangeChange}
-        style={{
-          '--slider-thumb-color': 'red',
-          '--slider-track-color': 'red',
-        }}
-      />
-      <div className="range-values">
-        <span>Min: ₹{minPrice}</span>
-        <span>Max: ₹{maxPrice}</span>
-      </div>
-    </div>
-            <hr/>
+              <h6>Price Range</h6>
+              <RangeSlider
+                min={0}
+                max={1000}
+                step={1}
+                value={[minPrice, maxPrice]}
+                onInput={handlePriceRangeChange}
+                style={{
+                  '--slider-thumb-color': 'red',
+                  '--slider-track-color': 'red',
+                }}
+              />
+              <div className="range-values">
+                <span>Min: ₹{minPrice}</span>
+                <span>Max: ₹{maxPrice}</span>
+              </div>
+            </div>
+            <hr />
             <Collapsible trigger="No. of Bedrooms">
               <div className="collapse-container">
                 {bhkType.map((bhkk, index) => (
@@ -611,7 +611,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
             <Collapsible trigger="Status">
               <div className="collapse-container">
                 {statusType.map((cstatus, index) => (
-                  <div key={index} className="collapse-opt">                             
+                  <div key={index} className="collapse-opt">
                     <button
                       className={`property-button ${selectedStatus.includes(cstatus) ? 'active' : ''}`}
                       onClick={() => handleStatusClick(cstatus)}
@@ -637,7 +637,7 @@ let propertiies =[...listprop,...unpackArr.reverse()];
                 ))}
               </div>
             </Collapsible>
-            <hr/>
+            <hr />
             <Collapsible trigger="Purchase Type">
               <div className="collapse-container">
                 {purType.map((purc, index) => (
@@ -654,84 +654,84 @@ let propertiies =[...listprop,...unpackArr.reverse()];
           </div>
         </div>
         <div className='col-7'>
-      <div className='f-cards '>
-        {currentPageData.map((item, index) => (
-          <>
-          <div className='d-card' key={index} onClick={() => handleCardClick(item)}>
-            <div className='list-home d-flex flex-row'>
-            <div className='carosel-width'>
-  <Carousel
-    data-bs-theme="dark"
-    onClick={handleNextClick}
-    prevIcon={<span className="carousel-control-prev-icon" />}
-    nextIcon={<span className="carousel-control-next-icon" />}
-    interval={hoveredCarousels[item] ? 500 : null}
-    onMouseEnter={(e) => handleMouseEnter(e,item)}
-    onMouseLeave={(e) => handleMouseLeave(e,item)}
-  >
-    {item.img.map((imageUrl, index) => (
-      <Carousel.Item key={index}>
-        <img className='property-img' src={imageUrl} alt="" />
-        <div className="carousel-overlay">
-          <span className="image-count">{`${index + 1} / ${item.img.length}`}</span>
-        </div>
-      </Carousel.Item>
-    ))}
-  </Carousel>
-</div>
-              <div className='p-4'>
-                <div className='fav-icon'>
-                  <h4 className='proj-title'>{item.projectname.toUpperCase()}</h4>
-                  <div>
-                    {isFavorited(item) ? (
-                      <FavoriteIcon onClick={(e) => handleAddFav(e, item)} style={{ color: 'red' }} />
-                    ) : (
-                      <FavoriteBorderOutlinedIcon onClick={(e) => handleAddFav(e, item)} />
-                    )}
+          <div className='f-cards '>
+            {currentPageData.map((item, index) => (
+              <>
+                <div className='d-card' key={index} onClick={() => handleCardClick(item)}>
+                  <div className='list-home d-flex flex-row'>
+                    <div className='carosel-width'>
+                      <Carousel
+                        data-bs-theme="dark"
+                        onClick={handleNextClick}
+                        prevIcon={<span className="carousel-control-prev-icon" />}
+                        nextIcon={<span className="carousel-control-next-icon" />}
+                        interval={hoveredCarousels[item] ? 500 : null}
+                        onMouseEnter={(e) => handleMouseEnter(e, item)}
+                        onMouseLeave={(e) => handleMouseLeave(e, item)}
+                      >
+                        {item.img.map((imageUrl, index) => (
+                          <Carousel.Item key={index}>
+                            <img className='property-img' src={imageUrl} alt="" />
+                            <div className="carousel-overlay">
+                              <span className="image-count">{`${index + 1} / ${item.img.length}`}</span>
+                            </div>
+                          </Carousel.Item>
+                        ))}
+                      </Carousel>
+                    </div>
+                    <div className='p-4'>
+                      <div className='fav-icon'>
+                        <h4 className='proj-title'>{item.projectname.toUpperCase()}</h4>
+                        <div>
+                          {isFavorited(item) ? (
+                            <FavoriteIcon onClick={(e) => handleAddFav(e, item)} style={{ color: 'red' }} />
+                          ) : (
+                            <FavoriteBorderOutlinedIcon onClick={(e) => handleAddFav(e, item)} />
+                          )}
+                        </div>
+                      </div>
+                      <h5 className='proj-price'><span style={{ color: 'red' }}>{item.price} $</span> <span style={{ color: '#c7c7c7', fontSize: '18px' }}>@7.5$/- per sqyd</span></h5>
+                      <h6 className='proj-ptype'>{item.propertytype}</h6>
+                      <div className='face-card'>
+                        <h6 className='proj-date'><span><KingBedRoundedIcon style={{ fontSize: 'x-large' }} /></span> {item.noofbedrooms}</h6>
+                        <h6 className='proj-date'><span><SyncDisabledIcon style={{ fontSize: 'large' }} /></span>{item.purchasetype}</h6>
+                      </div>
+                      <div className='face-card'>
+                        <h6 className='proj-date'><span><ExploreIcon style={{ fontSize: 'large' }} /></span> {item.facing.toUpperCase()} Facing</h6>
+                        <h6 className='proj-date'><span><ConstructionIcon style={{ fontSize: 'large' }} /></span> {item.constructionstatus}</h6>
+                      </div>
+                      <div className='face-card'>
+                        <h6 className='proj-date'>Posted on: {item.date}</h6>
+                        <h6 className='proj-date'>Category: {item.category}</h6>
+                      </div>
+                      <hr />
+                      <button className='contact-btn' onClick={(e) => handleContactOwner(e, item)}>Contact Owner</button>
+                    </div>
                   </div>
                 </div>
-                <h5 className='proj-price'><span style={{ color: 'red' }}>{item.price} $</span> <span style={{ color: '#c7c7c7', fontSize: '18px' }}>@7.5$/- per sqyd</span></h5>
-                <h6 className='proj-ptype'>{item.propertytype}</h6>
-                <div className='face-card'>
-                  <h6 className='proj-date'><span><KingBedRoundedIcon style={{ fontSize: 'x-large' }} /></span> {item.noofbedrooms}</h6>
-                  <h6 className='proj-date'><span><SyncDisabledIcon style={{ fontSize: 'large' }} /></span>{item.purchasetype}</h6>
-                </div>
-                <div className='face-card'>
-                  <h6 className='proj-date'><span><ExploreIcon style={{ fontSize: 'large' }} /></span> {item.facing.toUpperCase()} Facing</h6>
-                  <h6 className='proj-date'><span><ConstructionIcon style={{ fontSize: 'large' }} /></span> {item.constructionstatus}</h6>
-                </div>
-                <div className='face-card'>
-                  <h6 className='proj-date'>Posted on: {item.date}</h6>
-                  <h6 className='proj-date'>Category: {item.category}</h6>
-                </div>
-                <hr />
-                <button className='contact-btn' onClick={(e) => handleContactOwner(e, item)}>Contact Owner</button>
-              </div>
-            </div>
-          </div>
-          {getAdCard(index/2)}
+                {getAdCard(index / 2)}
 
-          </>
-        ))}
-      </div>
-      <div className="pagination">
-        <button onClick={handlePrevPage} disabled={currentPage === 1}>
-        &lt;
-        </button>
-        <span>Page {currentPage} of {Math.ceil(data.length / ITEMS_PER_PAGE)}</span>
-        <button onClick={handleNextPage} disabled={currentPage === Math.ceil(data.length / ITEMS_PER_PAGE)}>
-        &gt;
-        </button>
-      </div>
-    </div>
-         
+              </>
+            ))}
+          </div>
+          <div className="pagination">
+            <button onClick={handlePrevPage} disabled={currentPage === 1}>
+              &lt;
+            </button>
+            <span>Page {currentPage} of {Math.ceil(data.length / ITEMS_PER_PAGE)}</span>
+            <button onClick={handleNextPage} disabled={currentPage === Math.ceil(data.length / ITEMS_PER_PAGE)}>
+              &gt;
+            </button>
+          </div>
+        </div>
+
       </div>}
-      {viewType === 'list' && <ListView sdata={data} onChangeClick={handleCardClick}/>}
+      {viewType === 'list' && <ListView sdata={data} onChangeClick={handleCardClick} />}
     </>
   );
 };
 
-export default Datefilter;  
+export default Datefilter;
 
 
 
