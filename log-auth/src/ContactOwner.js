@@ -2,9 +2,9 @@ import React from 'react';
 import './ContactOwner.css';
 import img from './sai.jpg'
 
-const ContactOwner = ({ user, cardOpen, closeCard,details}) => {
+const ContactOwner = ({ user, cardOpen, closeCard, details }) => {
   if (!cardOpen) return null;
-  
+
 
   return (
     <div className="popup-overlay">
@@ -12,8 +12,8 @@ const ContactOwner = ({ user, cardOpen, closeCard,details}) => {
         <button className="close-btn" onClick={closeCard}>X</button>
         <h2>Contact Seller</h2>
         <div className="agent-info">
-          <div className="agent-image"> 
-           <img  className="agent-image"src={img} alt='sai'/>
+          <div className="agent-image">
+            <img className="agent-image" src={img} alt='sai' />
           </div>
           <div>
             <h6 className='owner-info'>Mokile Sai</h6>
